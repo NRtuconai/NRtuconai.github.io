@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+* {
+    font-family: 'Roboto', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* BARRE DE NAVIGATION */
+
+nav {
+    overflow: hidden;
+    background-color: #ffd5a5a4 ;
+    position: fixed;
+    width: 100%;
+}
+
+#logo img {
+    width: 50px;
+    margin: 4px 4px 2px 4px;
+}
+
+header li {
+    float: left;
+    font-size: 1em;
+}
+
+.navtext a {
+    font-family: 'fugaz one', cursive;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+}
+
+.navtext a:hover {
+    background-color: #ffd5a5;
+}
+
+#drapeau {
+    width: 1em;
+}
+
+
+/* HAUT DE PAGE */
+
+#imageHautdePage {
+    padding-top: 100px;
+    background: url(../image/image_presentation-flou.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 900px;
+}
+
+#imageHautdePage h1 {
+    font-family: 'oswald', cursive;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 110px;
+    color: #ece0c9;
+    text-shadow:4px 3px 1.5px #f5a50d;
+}
+
+#collab {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+
+
+/* PRESENTATION CREATEURS */
+
+#présentation {
+    background-color: #f0f0f0;
+    padding: 20px 0px 50px 0px;
+}
+
+#présentation h3 {
+    font-size: 40px;
+    font-family: 'Poppins', cursive;
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+
+#textIntro {
+    font-family: 'Roboto';
+    padding: 0px 20% 50px 20%;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.imagePrestation img {
+    margin: 20px;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
+}
+
+.imagePrestation h4 {
+    font-family: 'Roboto', cursive;
+    text-align: center;
+    font-size: 1em;
+    margin: 30px 0 0 0;
+}
+
+.imagePrestation img:hover {
+    opacity: 0.60;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+
+
+/* FORMULAIRE DE CONTACT */
+
+footer {
+    background-color: #ffd5a5;
+    color: #000000;
+    padding: 20px 0 50px 0;
+}
+
+footer h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    display: list-item;
+    list-style-type: none;
+    border: none;
+    width: 35%;
+    padding: 10px 20px;
+    margin: 7px 32%;
+    font-size: 1.2em;
+    font-family: 'Roboto', cursive;
+    border-radius: 10px;
+}
+
+
+
+/* PAGE DE BOIS D'ALAIN */
+
+#presentationCreateur {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.imageCreateur {
+    display: inline-flex;
+    justify-content: center;
+    
+    margin: 20px;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.9);
+}
+
+#imageHautdePageCreateur {
+    padding-top: 100px;
+    background: url(../image/image_presentation-flou.png) no-repeat fixed 100% 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+#imageHautdePageCreateur h1 {
+    font-family: 'oswald', cursive;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 150px;
+    color: #ece0c9;
+    text-shadow:4px 3px 1.5px #f5a50d;
+}
